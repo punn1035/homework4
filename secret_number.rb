@@ -7,7 +7,6 @@ def magenta;        "\e[35m#{self}\e[0m" end
 
 def main
 	secret_number = rand(1..50).to_i
-	puts secret_number
 	s_num(secret_number)
 end
 
